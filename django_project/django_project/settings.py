@@ -72,7 +72,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
-LANGUAGE_CODE = "de-DE"
+LANGUAGE_CODE = "en-EN"
 
 TIME_ZONE = "CET"
 
@@ -97,4 +97,3 @@ if os.environ.get("CAPROVER") is None:
     from .settings_dev import *
 else:
     from .settings_caprover import *
-

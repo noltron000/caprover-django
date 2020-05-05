@@ -47,3 +47,13 @@ The following assumptions are made about your environment:
 
 # Support
 If you want professional support with this or other Django related issues, like integrating GitLab CICD with CapRover and DigitalOcean feel free to [contact us](https://kamner.de/contact).
+
+# Options
+0. `pip3 install virtualenv`
+0. `virtualenv -p python3 py3env`
+0. `source py3env/bin/activate`
+0. `cd django_project`
+0. `pip3 install -r requirements.txt`
+0. `python3 manage.py migrate`
+0. `python3 manage.py createsuperuser`
+0. `python3 manage.py runserver`
